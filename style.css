@@ -56,10 +56,13 @@ span + address {
     margin: 30px;
 }
 
-/* Pseudo Class */
+/* Pseudo Class & Transition */
 a:hover {
     color: #808080;
+    font-size: 26px;
     background-color: white;
+    transition: font-size 2s;
+    transition-timing-function: ease-out;
 }
 
 li:nth-child(odd) {
