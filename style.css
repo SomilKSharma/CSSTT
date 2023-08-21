@@ -49,3 +49,9 @@ span + address {
     margin: 20px;
     width: 900px;
 }
+
+/* Apply display elements */
+.ques {
+    float: inline-start;
+    margin: 30px;
+}
