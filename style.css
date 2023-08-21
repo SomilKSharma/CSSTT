@@ -1,4 +1,4 @@
-body {
+body,input,textarea,::placeholder {
     background-color: grey;
     font-size: 22px;
     color: white;
@@ -58,5 +58,18 @@ span + address {
 
 /* Pseudo Class */
 a:hover {
-    color: bisque;
+    color: #808080;
+    background-color: white;
+}
+
+li:nth-child(odd) {
+    text-decoration:underline;
+}
+
+/* Pseudo Element */
+.para::after {
+    content: "  -Somil Sharma";
+    font-weight: 900;
+    font-style: oblique;
+    color: darkkhaki;
 }
