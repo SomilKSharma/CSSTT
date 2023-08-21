@@ -2,3 +2,10 @@ body {
     background-color: beige;
     font-size: 22px;
 }
+
+.main_head {
+    width: 50%;
+    font-size: 43px;
+    border: solid #808080;
+}
+
