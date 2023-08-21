@@ -4,7 +4,8 @@ body {
     color: white;
 }
 
-.main_head {
+/* Attribute Selector */
+[class="main_head"] {
     text-align: center;
     font-size: 43px;
     border: solid white;
