@@ -41,3 +41,11 @@ span + address {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
+
+/* Ajust video padding */
+.videocreate {
+    border: 2px white solid;
+    padding: 40px;
+    margin: 20px;
+    width: 900px;
+}
