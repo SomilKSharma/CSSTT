@@ -2,6 +2,8 @@ body {
     background-color: grey;
     font-size: 22px;
     color: white;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Attribute Selector */
@@ -30,7 +32,8 @@ a {
 
 /* Child Selector */
 .letcreate > .excited {
-    float: inline-end;
+    float: inline-start;
+    padding-right: 4rem;
 }
 
 /* Adjacent Sibling Selector */
