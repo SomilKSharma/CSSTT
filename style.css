@@ -1,15 +1,39 @@
 body {
-    background-color: beige;
+    background-color: grey;
     font-size: 22px;
+    color: white;
 }
 
 .main_head {
-    width: 50%;
+    text-align: center;
     font-size: 43px;
-    border: solid #808080;
+    border: solid white;
 }
 
 .whyneedtable {
     text-align: center;
 }
 
+table {
+    border-color: white;
+}
+
+a {
+    color: whitesmoke;
+}
+
+/* Descendent Selector */
+.Table table {
+    font-style: italic;
+}
+
+/* Child Selector */
+.letcreate > .excited {
+    float: inline-end;
+}
+
+/* Adjacent Sibling Selector */
+span + address {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
