@@ -121,3 +121,25 @@ h3 {
         background-color: #808080;
     }
 }
+
+/* CSS position property */
+.linkedin {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    position: fixed;
+    bottom: 50%;
+    border-radius: 50%;
+}
+
+.gototop {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+}
+
+
