@@ -142,4 +142,43 @@ h3 {
     border-radius: 50%;
 }
 
+/* flex box */
+
+.flexing {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+}
+
+.flex {
+    border: solid white;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+
+/* flex box 1 */
+.f1 {
+    background-image: radial-gradient(circle, white, grey);
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+/* flex box 2 */
+.f2 {
+    background-image: linear-gradient(to bottom, black, grey);
+}
+
+/* flex box 3 */
+.f3 {
+    background-image: linear-gradient(to bottom right, black, grey);
+}
+
+/* flex box 4 */
+.f4 {
+    background-image: linear-gradient(to bottom left, black, grey);
+}
+
+
+
 
