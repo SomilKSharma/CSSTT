@@ -14,11 +14,13 @@ body,input,textarea,::placeholder {
 }
 
 .whyneedtable {
-    text-align: center;
+    display: flexbox;
 }
 
 table {
     border-color: white;
+    max-width: 100%; 
+
 }
 
 a {
@@ -32,8 +34,9 @@ a {
 
 /* Child Selector */
 .letcreate > .excited {
-    float: inline-start;
+    float: left;
     padding-right: 4rem;
+    margin: 1px 10px 4px 10px;
 }
 
 /* Adjacent Sibling Selector */
@@ -45,16 +48,16 @@ span + address {
 /* Ajust video padding */
 .videocreate {
     border: 2px white solid;
-    padding: 40px;
-    margin: 20px;
     width: 900px;
+    max-width: 100%;
 }
 
 /* Apply display elements */
 .ques {
-    float: inline-start;
+    float: left;
     margin-right: 30px;
     margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 /* Pseudo Class & Transition */
@@ -81,30 +84,40 @@ li:nth-child(odd) {
 /* Animations and Keyframe */
 @keyframes movel2r {
     0% {
-        left: 0px;
-    }
-    25% {
-        left: 250px;
-    }
-    50% {
-        left: 500px;
-    }
-    75% {
-        left: 250px;
+        left: -27%; /* Start off the screen to the left */
     }
     100% {
-        left: 0px;
+        left: 110%; /* Move to the middle of the screen */
     }
+
 }
+
 
 h3 {
     text-align: center;
     width: 25%;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 0px;
     border: white solid;
     position: relative;
     animation-name: movel2r;
     animation-duration: 12s;
     animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/* Media query */
+@media (max-width: 700px) {
+    body,input,textarea,::placeholder {
+        background-color: white;
+        color: #888;
+    }
+
+    a {
+        color: #808080;
+    }
+
+    a:hover {
+        color: white;
+        background-color: #808080;
+    }
 }
