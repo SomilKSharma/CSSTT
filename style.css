@@ -10,7 +10,7 @@ body,input,textarea,::placeholder {
 [class="main_head"] {
     text-align: center;
     font-size: 43px;
-    border: solid white;
+    border: solid;
 }
 
 .whyneedtable {
@@ -97,7 +97,7 @@ h3 {
     text-align: center;
     width: 25%;
     margin-left: 0px;
-    border: white solid;
+    border: solid;
     position: relative;
     animation-name: movel2r;
     animation-duration: 12s;
